@@ -1,33 +1,30 @@
-h2 {
-    color: teal;
-    background-color: rgb(245, 239, 239);
-    border-radius: 25px;
-    border: 2px solid teal;
-    padding: 2px;
+.btn-search, .btn-add, .btn-primary {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-search {
     width: 200px;
-    height: 25px;
-    text-align: center;
+    height: 50px;
+    color: white;
+    border: 2px solid teal;
+    border-radius: 20px;
 
 }
 
-h3 {
-    color: white;
-    background-color: rgb(107, 210, 182);
-    padding: 2px;
-    border: 2px solid;
+.btn-add {
+    width: 40px;
+    background-color: #00d1b2;
+    color: #fff;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    border: none;
 }
 
-h4 {
-    color: white;
-    background-color: rgb(92, 92, 255);
-    padding: 10px;
-    border: 2px solid black;
-    text-align: center;
-    height: 10px;
+.btn-primary {
     width: 150px;
-    box-shadow: 10px 5px 5px black;
+    background-color: #2b78e4;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 3px 3px black;
 }
